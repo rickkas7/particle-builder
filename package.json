@@ -1,6 +1,6 @@
 {
     "name": "@rickkas7/particle-builder",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "description": "Tool for building Particle projects, typically from Travis",
     "scripts": {
         "start": "node particle-builder.js"
@@ -11,7 +11,7 @@
     "dependencies": {
         "js-yaml": "^3.12.0",
         "nconf": "0.8.5",
-        "particle-cli": "^1.32.2",
+        "particle-cli": "1.32.2",
         "yargs": "10.1.1"
     },
     "engines": {

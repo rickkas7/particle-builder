@@ -194,6 +194,9 @@ function runParticle(args) {
 		if (code == 0) {
 			processNextBuild();
 		}
+		else {
+			process.exit(1);			
+		}
 	});
 }
 
